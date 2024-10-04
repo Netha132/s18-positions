@@ -1,0 +1,57 @@
+#avengers{
+    background:linear-gradient(90deg,#d60a0a,#0d7502);
+}
+img{
+    width: 200px;
+}
+#spider{
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    z-index: 19;
+}
+#iron{
+    position: relative;
+    z-index: 20;
+}
+#hulk{
+    position: relative;
+    left: 500px;
+    top: 50px;
+    z-index: 18;
+}
+#captain{
+    position: relative;
+    right: 150px;
+    bottom: 30px;
+    z-index: 19;
+}
+#thor{
+    position: relative;
+    right: 600px;
+    bottom: 30px;
+    z-index: 18;
+}
+#doctor{
+    position: relative;
+    bottom: 400px;
+    left: 320px;
+}
+#logo{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    opacity: 0.5;
+}
+#head{
+    background-color: #efededc3;
+    padding: 20px;
+    color: rgb(69, 70, 70);
+    font-size: 5rem;
+    text-align: center;
+}
+.heading{
+    position: sticky;
+    top: 0px;
+    z-index: 21;
+}
